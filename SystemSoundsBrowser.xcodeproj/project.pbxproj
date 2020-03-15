@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3527EA2241C453E0036EA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3527EA1241C453E0036EA94 /* AppDelegate.swift */; };
+		B3527EA4241C453E0036EA94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3527EA3241C453E0036EA94 /* SceneDelegate.swift */; };
+		B3527EA6241C453E0036EA94 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3527EA5241C453E0036EA94 /* MainView.swift */; };
+		B3527EA8241C453F0036EA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3527EA7241C453F0036EA94 /* Assets.xcassets */; };
+		B3527EAB241C453F0036EA94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3527EAA241C453F0036EA94 /* Preview Assets.xcassets */; };
+		B3527EAE241C453F0036EA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3527EAC241C453F0036EA94 /* LaunchScreen.storyboard */; };
+		B3527EB6241C45800036EA94 /* SoundAndHapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3527EB5241C45800036EA94 /* SoundAndHapticsService.swift */; };
+		B3527EB9241C458D0036EA94 /* light click.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3527EB7241C458C0036EA94 /* light click.ahap */; };
+		B3527EBA241C458D0036EA94 /* light tap.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3527EB8241C458C0036EA94 /* light tap.ahap */; };
+		B3527EBC241C459D0036EA94 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3527EBB241C459D0036EA94 /* CapsuleButton.swift */; };
+		B3EF1A7D241DC3E30020EF23 /* rumble.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A76241DC3E30020EF23 /* rumble.ahap */; };
+		B3EF1A7E241DC3E30020EF23 /* gravel.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A77241DC3E30020EF23 /* gravel.ahap */; };
+		B3EF1A7F241DC3E30020EF23 /* heartbeats.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A78241DC3E30020EF23 /* heartbeats.ahap */; };
+		B3EF1A80241DC3E30020EF23 /* boing.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A79241DC3E30020EF23 /* boing.ahap */; };
+		B3EF1A81241DC3E30020EF23 /* sparkle.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A7A241DC3E30020EF23 /* sparkle.ahap */; };
+		B3EF1A82241DC3E30020EF23 /* oscillate.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A7B241DC3E30020EF23 /* oscillate.ahap */; };
+		B3EF1A83241DC3E30020EF23 /* inflate.ahap in Resources */ = {isa = PBXBuildFile; fileRef = B3EF1A7C241DC3E30020EF23 /* inflate.ahap */; };
+		B3EF1A86241ED7180020EF23 /* PickerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF1A85241ED7180020EF23 /* PickerViews.swift */; };
+		B3EF1A88241ED7EF0020EF23 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF1A87241ED7EF0020EF23 /* Favorite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3527E9E241C453E0036EA94 /* SystemSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3527EA1241C453E0036EA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3527EA3241C453E0036EA94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3527EA5241C453E0036EA94 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B3527EA7241C453F0036EA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3527EAA241C453F0036EA94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3527EAD241C453F0036EA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3527EAF241C453F0036EA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3527EB5241C45800036EA94 /* SoundAndHapticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundAndHapticsService.swift; sourceTree = "<group>"; };
+		B3527EB7241C458C0036EA94 /* light click.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "light click.ahap"; sourceTree = "<group>"; };
+		B3527EB8241C458C0036EA94 /* light tap.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "light tap.ahap"; sourceTree = "<group>"; };
+		B3527EBB241C459D0036EA94 /* CapsuleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		B3EF1A76241DC3E30020EF23 /* rumble.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rumble.ahap; sourceTree = "<group>"; };
+		B3EF1A77241DC3E30020EF23 /* gravel.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gravel.ahap; sourceTree = "<group>"; };
+		B3EF1A78241DC3E30020EF23 /* heartbeats.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heartbeats.ahap; sourceTree = "<group>"; };
+		B3EF1A79241DC3E30020EF23 /* boing.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boing.ahap; sourceTree = "<group>"; };
+		B3EF1A7A241DC3E30020EF23 /* sparkle.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle.ahap; sourceTree = "<group>"; };
+		B3EF1A7B241DC3E30020EF23 /* oscillate.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oscillate.ahap; sourceTree = "<group>"; };
+		B3EF1A7C241DC3E30020EF23 /* inflate.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inflate.ahap; sourceTree = "<group>"; };
+		B3EF1A85241ED7180020EF23 /* PickerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViews.swift; sourceTree = "<group>"; };
+		B3EF1A87241ED7EF0020EF23 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3527E9B241C453E0036EA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3527E95241C453E0036EA94 = {
+			isa = PBXGroup;
+			children = (
+				B3527EA0241C453E0036EA94 /* SystemSoundsBrowser */,
+				B3527E9F241C453E0036EA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3527E9F241C453E0036EA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3527E9E241C453E0036EA94 /* SystemSounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3527EA0241C453E0036EA94 /* SystemSoundsBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF1A84241DCB4E0020EF23 /* Haptics Files */,
+				B3527EA9241C453F0036EA94 /* Preview Content */,
+				B3527EA1241C453E0036EA94 /* AppDelegate.swift */,
+				B3527EA7241C453F0036EA94 /* Assets.xcassets */,
+				B3527EBB241C459D0036EA94 /* CapsuleButton.swift */,
+				B3EF1A87241ED7EF0020EF23 /* Favorite.swift */,
+				B3527EAF241C453F0036EA94 /* Info.plist */,
+				B3527EAC241C453F0036EA94 /* LaunchScreen.storyboard */,
+				B3527EA5241C453E0036EA94 /* MainView.swift */,
+				B3EF1A85241ED7180020EF23 /* PickerViews.swift */,
+				B3527EA3241C453E0036EA94 /* SceneDelegate.swift */,
+				B3527EB5241C45800036EA94 /* SoundAndHapticsService.swift */,
+			);
+			path = SystemSoundsBrowser;
+			sourceTree = "<group>";
+		};
+		B3527EA9241C453F0036EA94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3527EAA241C453F0036EA94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3EF1A84241DCB4E0020EF23 /* Haptics Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF1A79241DC3E30020EF23 /* boing.ahap */,
+				B3EF1A77241DC3E30020EF23 /* gravel.ahap */,
+				B3EF1A78241DC3E30020EF23 /* heartbeats.ahap */,
+				B3EF1A7C241DC3E30020EF23 /* inflate.ahap */,
+				B3527EB7241C458C0036EA94 /* light click.ahap */,
+				B3527EB8241C458C0036EA94 /* light tap.ahap */,
+				B3EF1A7B241DC3E30020EF23 /* oscillate.ahap */,
+				B3EF1A76241DC3E30020EF23 /* rumble.ahap */,
+				B3EF1A7A241DC3E30020EF23 /* sparkle.ahap */,
+			);
+			path = "Haptics Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3527E9D241C453E0036EA94 /* SystemSoundsBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3527EB2241C453F0036EA94 /* Build configuration list for PBXNativeTarget "SystemSoundsBrowser" */;
+			buildPhases = (
+				B3527E9A241C453E0036EA94 /* Sources */,
+				B3527E9B241C453E0036EA94 /* Frameworks */,
+				B3527E9C241C453E0036EA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemSoundsBrowser;
+			productName = SystemSoundsBrowser;
+			productReference = B3527E9E241C453E0036EA94 /* SystemSounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3527E96241C453E0036EA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Velos Mobile LLC";
+				TargetAttributes = {
+					B3527E9D241C453E0036EA94 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B3527E99241C453E0036EA94 /* Build configuration list for PBXProject "SystemSoundsBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3527E95241C453E0036EA94;
+			productRefGroup = B3527E9F241C453E0036EA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3527E9D241C453E0036EA94 /* SystemSoundsBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3527E9C241C453E0036EA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF1A7D241DC3E30020EF23 /* rumble.ahap in Resources */,
+				B3EF1A80241DC3E30020EF23 /* boing.ahap in Resources */,
+				B3EF1A81241DC3E30020EF23 /* sparkle.ahap in Resources */,
+				B3EF1A83241DC3E30020EF23 /* inflate.ahap in Resources */,
+				B3527EAE241C453F0036EA94 /* LaunchScreen.storyboard in Resources */,
+				B3EF1A7F241DC3E30020EF23 /* heartbeats.ahap in Resources */,
+				B3527EBA241C458D0036EA94 /* light tap.ahap in Resources */,
+				B3527EB9241C458D0036EA94 /* light click.ahap in Resources */,
+				B3527EAB241C453F0036EA94 /* Preview Assets.xcassets in Resources */,
+				B3527EA8241C453F0036EA94 /* Assets.xcassets in Resources */,
+				B3EF1A7E241DC3E30020EF23 /* gravel.ahap in Resources */,
+				B3EF1A82241DC3E30020EF23 /* oscillate.ahap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3527E9A241C453E0036EA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3527EB6241C45800036EA94 /* SoundAndHapticsService.swift in Sources */,
+				B3EF1A88241ED7EF0020EF23 /* Favorite.swift in Sources */,
+				B3527EA2241C453E0036EA94 /* AppDelegate.swift in Sources */,
+				B3527EA4241C453E0036EA94 /* SceneDelegate.swift in Sources */,
+				B3527EA6241C453E0036EA94 /* MainView.swift in Sources */,
+				B3EF1A86241ED7180020EF23 /* PickerViews.swift in Sources */,
+				B3527EBC241C459D0036EA94 /* CapsuleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3527EAC241C453F0036EA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3527EAD241C453F0036EA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3527EB0241C453F0036EA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3527EB1241C453F0036EA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3527EB3241C453F0036EA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"SystemSoundsBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SystemSoundsBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.velosmobile.SystemSoundsBrowser;
+				PRODUCT_NAME = SystemSounds;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3527EB4241C453F0036EA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"SystemSoundsBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SystemSoundsBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.velosmobile.SystemSoundsBrowser;
+				PRODUCT_NAME = SystemSounds;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3527E99241C453E0036EA94 /* Build configuration list for PBXProject "SystemSoundsBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3527EB0241C453F0036EA94 /* Debug */,
+				B3527EB1241C453F0036EA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3527EB2241C453F0036EA94 /* Build configuration list for PBXNativeTarget "SystemSoundsBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3527EB3241C453F0036EA94 /* Debug */,
+				B3527EB4241C453F0036EA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3527E96241C453E0036EA94 /* Project object */;
+}

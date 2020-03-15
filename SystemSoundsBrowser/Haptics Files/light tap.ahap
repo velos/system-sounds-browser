@@ -1,0 +1,22 @@
+{
+    "Version": 1.0,
+    "Metadata":
+    {
+        "Description" : "Light tap. Suitable for accompanying button taps."
+    },
+    "Pattern":
+    [
+        {
+            "Event":
+            {
+                "Time": 0.0,
+                "EventType": "HapticTransient",
+                "EventParameters":
+                [
+                    { "ParameterID": "HapticIntensity", "ParameterValue": 0.5 },
+                    { "ParameterID": "HapticSharpness", "ParameterValue": 0.5 }
+                ]
+            }
+        }
+    ]
+}

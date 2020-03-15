@@ -1,0 +1,22 @@
+{
+    "Version": 1.0,
+    "Metadata":
+    {
+        "Description" : "Light, sharp click. Suitable for accompanying slider clicks."
+    },
+    "Pattern":
+    [
+        {
+            "Event":
+            {
+                "Time": 0.0,
+                "EventType": "HapticTransient",
+                "EventParameters":
+                [
+                    { "ParameterID": "HapticIntensity", "ParameterValue": 0.5 },
+                    { "ParameterID": "HapticSharpness", "ParameterValue": 1.0 }
+                ]
+            }
+        }
+    ]
+}
